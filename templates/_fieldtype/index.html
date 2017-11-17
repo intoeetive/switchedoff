@@ -1,0 +1,10 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.lightswitchField({
+    id: id,
+    name: name,
+    on: false,
+    onLabel: 'Send update via Buffer'|t,
+    offLabel: 'Don\'t send update'|t,
+    instructions: ''|t
+}) }}
